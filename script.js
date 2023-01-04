@@ -40,18 +40,52 @@
 //     console.log("Я сыт!");
 // }
 // console.log((hamburger && fries));
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+// if (hamburger === 3 && cola ===2 || fries === 3 && nuggets) {
+//   console.log("Все довольны");
+// } else {
+//   console.log("Мы уходим") 
+// }
+// console.log(hamburger === 3 && cola ===2 || fries === 3 && nuggets); 
+
+
+// const num = 50;
+
+// switch (num) {
+//  case 49:
+//     console.log("Неверно");
+//     break;
+//  case 100:
+//     console.log("Неверно");
+//     break;
+//  case 51:
+//       console.log("В точку");
+//       break;
+//      default:
+//         console.log("Не в этот раз");
+//         break;
+//}
+
+
+// const hamburger = true;
+// const fries = false;
+
+// if (hamburger && fries) {
+//    console.log("Я сыт")
+// }
+
 const hamburger = 3;
-const fries = 3;
+const fries = 1;
 const cola = 0;
-const nuggets = 2;
 
-if (hamburger === 3 && cola ===2 || fries === 3 && nuggets) {
-  console.log("Все довольны");
+console.log(hamburger === 3 && cola && fries)
+
+if (hamburger === 3 && fries) {
+   console.log("vse siti");
 } else {
-  console.log("Мы уходим") 
+   console.log("mi uxodim");
 }
-console.log(hamburger === 3 && cola ===2 || fries === 3 && nuggets);
-
-// let johnReport, alexReport, samReport, mariaReport = "done";
-
-// console.log(johnReport || alexReport || samReport || mariaReport);
